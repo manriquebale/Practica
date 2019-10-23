@@ -4,9 +4,16 @@ con lo cual se utilizara el 100 % del espacio*/
 	padding: 0;
 	margin: 0;
 }
-
+.logo
+{
+	width:150px;
+	align-content: center;
+	height: 80%;
+	position: relative;
+}
 header{
 	position: fixed;
+	
 	width: 100%;
 	height: 100px;
 	background-color: #C3B7BC;
