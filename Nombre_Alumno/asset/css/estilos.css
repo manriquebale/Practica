@@ -1,0 +1,82 @@
+/*su funcion es de que el body tenga 0 en las caracteristicias de pading y margin
+con lo cual se utilizara el 100 % del espacio*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color: #C3B7BC;
+	opacity: 1;
+
+}
+
+main{
+	position: static;
+	align-items: start;
+	width: 100%;
+	height: 600px;
+	background-color: #D9D9D6;
+}
+
+footer{
+	width: 100%;
+	height: 150px;
+	
+}
+.pagos{
+	width: 100%;
+	height: 116px;
+	background-color: #2D2926;
+}
+
+.legal{
+	
+	width: 100%;
+	height: 50px;
+	background-color: #53565A;
+}
+
+
+a{
+	text-decoration: none;/*para que el texto o link no aparezca subrrallado*/
+	color: black;
+}
+
+.Menu ul{
+	list-style: none; 
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	padding-left: 495px;
+}
+
+.Menu ul li{
+	position: relative;
+	float: left; /*su funcion: hace que los li se coloquen uno a lado del otro comenzando de izquierda a derecha*/ 
+	padding: 1em;
+
+}
+
+.Menu ul li ul{
+	display: none;
+	position: absolute;
+}
+
+.Menu ul li:hover > ul{
+	display: block;
+	padding-left: 0px;
+}
+
+/*.child{
+	height: 30%;
+	background-color: orange;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0;
+    float: left;
+}*/
