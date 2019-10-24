@@ -20,6 +20,7 @@ header{
 }
 .input{
 	width: 26%;
+
 }
 .bt{
 	border-radius: 10%;
@@ -100,4 +101,10 @@ a{
 	background-color: #C8C9C7;
 	align-items: center;
 	align-content: center;
+}
+#mio{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }

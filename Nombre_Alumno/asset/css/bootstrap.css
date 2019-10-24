@@ -372,6 +372,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 2rem;
+  justify-self: center;
 }
 
 h3, .h3 {
